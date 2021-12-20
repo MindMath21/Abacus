@@ -209,16 +209,12 @@ var submit = 1;
     return false;
   }
 }
-//SecureToken : "07871976-33ee-42c8-a0bf-628d517ce100",
  function sends(){
   let body = "name: " + usn.value + "<br>email: " + email.value + "<br>Mobile No." + mobile_no.value;
   submitbtn.classList.add("loading")
   submitbtn.innerHTML = "Sending Mail...";
   Email.send({
   SecureToken : "70df1c18-ab57-4cc5-8fad-315ed5d51f0a",
-  //Host : "smtp.gmail.com",
-  //Username : "singhalharshit887@gmail.com",
-  //Password : "8696382813",
   To : 'mindmath21@gmail.com',
   From : email.value,
   Subject : "Join Mindmath community",
