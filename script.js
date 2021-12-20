@@ -214,7 +214,7 @@ var submit = 1;
   submitbtn.classList.add("loading")
   submitbtn.innerHTML = "Sending Mail...";
   Email.send({
-  Host : "smtp.elasticemail.com",
+  Host : "smtp.gmail.com",
   Username : "singhalharshit887@gmail.com",
   Password : "8696382813",
   To : 'mindmath21@gmail.com',
