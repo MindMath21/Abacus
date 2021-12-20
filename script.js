@@ -216,7 +216,7 @@ var submit = 1;
   Email.send({
   Host : "smtp.elasticemail.com",
   Username : "singhalharshit887@gmail.com",
-  Password : "3F4C4D0B20B3E1FB5690F569DC1D1681CF88",
+  Password : "8696382813",
   To : 'mindmath21@gmail.com',
   From : email.value,
   Subject : "Join Mindmath community",
