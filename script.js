@@ -214,7 +214,10 @@ var submit = 1;
   submitbtn.classList.add("loading")
   submitbtn.innerHTML = "Sending Mail...";
   Email.send({
-  SecureToken : "70df1c18-ab57-4cc5-8fad-315ed5d51f0a",
+  //SecureToken : "70df1c18-ab57-4cc5-8fad-315ed5d51f0a",
+  Host : "smtp.gmail.com",
+  Username : "singhalharshit887@gmail.com",
+  Password : "8696382813",
   To : 'mindmath21@gmail.com',
   From : email.value,
   Subject : "Join Mindmath community",
