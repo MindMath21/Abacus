@@ -43,13 +43,13 @@ a{
     /*display: flex;
     justify-content: center;
     align-items: center;*/
-    background: #000 url(/pictures/preloader-gif-transparent-background-12.gif) no-repeat center center;
+    background: #fff url(/pictures/preloader.gif) no-repeat center center;
     height: 100vh;
     width: 100%;
-    padding: fixed;
+    position: fixed;
+    background-size: 100%;
     z-index: 100;
     background-repeat: no-repeat;
-   
 }
 ul{
     list-style: none;
@@ -61,7 +61,7 @@ header{
     background-color: rgb(3, 7, 8);
     position: sticky;
     top: 0;
-    z-index: 10000;
+    z-index: 1;
 }
 #headerp1{
     display: flex;
@@ -157,6 +157,7 @@ header.sticky{
 #sec1 img{
     width: 420px;
     height: 210px;
+    margin-top: 9px;
 }
 #sec1 #free{
     margin-top: 3.6px;
@@ -170,7 +171,7 @@ header.sticky{
 
 .benefit_of_abacus{
     text-align: center;
-    padding: 66px 0 0 0;
+    padding: 102px 0 0 0;
     background: #fff;
     position: relative;
 }
@@ -249,7 +250,7 @@ header.sticky{
 
 
 #vm{
-    padding: 69px 12px 0 12px;
+    padding: 102px 12px 0 12px;
     margin: 0 15px;
     display: flex;
     justify-content: space-between;
@@ -293,7 +294,7 @@ header.sticky{
 .Question_section{
     width: 60%;
     margin: 0px auto 21px;
-    padding-top: 66px;
+    padding-top: 102px;
 }
 .Question_section h1{
     font-size: 20px;
@@ -427,7 +428,7 @@ footer .end{
         padding:9px 21px;
     }
     #vm{
-        padding:51px 24px 0;
+        padding: 93px 24px 0;
         flex-direction: column;
     }
     .dreambox{
@@ -548,12 +549,12 @@ footer .end{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-top: 66px;
+        padding-top: 102px;
     }
     .hero h1{
         font-size: 30px;
         position: relative;
-        margin-bottom: 60px;
+        margin-bottom: 42px;
     }
     .hero h1::after{
         content: '';
@@ -562,7 +563,7 @@ footer .end{
         background: linear-gradient( to right,
         cadetblue, skyblue);
         position: absolute;
-        bottom: -20px;
+        bottom: -9px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -805,7 +806,7 @@ footer .end{
 
 
      #what_why{
-        padding-top: 51px;
+        padding-top: 90px;
         text-align: center;
         font-family: monospace;
         align-items: center;
@@ -826,7 +827,7 @@ footer .end{
          font-family: 'Josefin Sans', sans-serif;
      }
     #whyLearn{
-        padding-top: 66px;
+        padding-top: 81px;
     }
     #whyLearn img{
          width: 450px;
