@@ -505,11 +505,11 @@ footer .end{
 }
 @media screen and (max-width:375px){
     .icon_arrow .fas.fa-arrow-circle-right{
-        top: 260px;
+        top: 276px;
         right: 0;
     }
     .icon_arrow .fas.fa-arrow-circle-left{
-        top: 260px;
+        top: 276px;
         left: 0px;
     }
     .question .icon i{
@@ -527,14 +527,14 @@ footer .end{
         font-size: 30px;
     }
     .icon_arrow .fas.fa-arrow-circle-right{
-        top: 265.7px;
+        top: 276px;
         right: 0;
     }
     .Question_section .question h5{
         font-size: 7.5px;
     }
     .icon_arrow .fas.fa-arrow-circle-left{
-        top: 264px;
+        top: 278.1px;
         left: 0px;
     }
     .question .icon i{
